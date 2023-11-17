@@ -11,6 +11,6 @@ cloudwatch.put_rule(
     State='ENABLED',
     Targets=[{
         'Id': 'web-app-health-check',
-        'Arn': 'your-lambda-function-arn'  # Replace with your Lambda function ARN
+        'Arn': 'arn:aws:lambda:ap-south-1:295397358094:function:webapphealth'  # Replace with your Lambda function ARN
     }]
 )
